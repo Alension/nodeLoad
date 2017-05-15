@@ -1,0 +1,9 @@
+{
+  "name": "node4",
+  "main": "./lib/main.js",
+  "description": "alen's",
+  "license": "MIT",
+  "dependencies": {
+    "express":"^4.15.2"
+  }
+}
