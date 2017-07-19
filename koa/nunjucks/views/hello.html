@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello nunjucks</title>
+</head>
+<body>
+   <!-- <h1>hello {{name}}</h1>
+    <h1>{{age}}</h1>
+
+    <p>{{likes}}</p>-->
+
+    {% for like in user.likes %}
+    <p>{{like}}</p>
+    {%endfor%}
+</body>
+</html>
